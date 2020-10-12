@@ -1,0 +1,144 @@
+* {
+  font-family: serif;
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  width: 550px;
+  height: 575px;
+  background-color: #62cac2;
+  border: 3px solid #05a89b;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 130%;
+}
+
+.title span {
+  color: #948e7c;
+}
+
+.status {
+  font-size: 110%;
+  float: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.reset {
+  font-size: 110%;
+  float: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#grade {
+  margin-left: 123px;
+  margin-top: 80px;
+}
+
+#top-left {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  border-right: 7px solid #05a89b;
+  float: left;
+}
+
+#top-center {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  border-right: 7px solid #05a89b;
+  float: left;
+}
+
+#top-right {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  float: left;
+}
+
+#center-left {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  border-right: 7px solid #05a89b;
+  clear: left;
+  float: left;
+}
+
+#center-center {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  border-right: 7px solid #05a89b;
+  float: left;
+}
+
+#center-right {
+  width: 100px;
+  height: 110px;
+  border-bottom: 7px solid #05a89b;
+  float: left;
+}
+
+#bot-left {
+  width: 100px;
+  height: 110px;
+  border-right: 7px solid #05a89b;
+  clear: left;
+  float: left;
+}
+
+#bot-center {
+  width: 100px;
+  height: 110px;
+  border-right: 7px solid #05a89b;
+  float: left;
+}
+
+#bot-right {
+  width: 100px;
+  height: 110px;
+  float: left;
+}
+
+#X {
+  margin-top: 20%;
+  margin-left: 30%;
+  color: #ffffff;
+  font-size: 350%;
+  font-family: cursive;
+}
+
+#O {
+  margin-top: 20%;
+  margin-left: 30%;
+  color: #000000;
+  font-size: 350%;
+  font-family: cursive;
+}
+
+.cell {
+  cursor: pointer;
+}
+
+.reset {
+  margin-left: 47%;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 110%;
+  font-family: fantasy;
+}
